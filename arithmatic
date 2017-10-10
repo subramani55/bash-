@@ -1,0 +1,36 @@
+#!/bin/bash
+
+## using let and expr we can do arithmatic operation
+
+## let
+
+let addi=9+7
+echo "the value is $addi"
+
+let mul=8*8
+echo "multi value is $mul"
+
+let rem=10%2
+echo "$rem"
+
+let div=10/2
+echo "$div"
+
+## expr 
+
+expr 5 + 5
+
+expr 5 - 2
+
+##in expr * should be \*    only this is change from let
+
+expr 2 \* 5
+
+expr 10 % 3
+
+expr 10 / 3
+
+
+
+  
+
