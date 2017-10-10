@@ -1,0 +1,43 @@
+#!/bin/bash
+
+## user defined variables 
+
+name=mani
+num=1234567890
+
+echo " hai $name"
+echo "your number is $num"
+
+## sys defined variable
+
+echo $LOGNAME
+
+## to check string length  use {# } this example is given below
+
+username=mani
+password=mani1234
+echo "your username is $username"
+echo "your password is $password"
+echo "your password length is ${#password}"
+
+## to get basic user input use read
+
+read -p "enter your name:" username
+echo "hai mr/mrs $username"
+
+read -p "where are u from:" place
+echo "$place  it is a nice place"
+
+## to hide user input 
+
+read -sp "enter your password:" password
+
+echo "you enterd this password $password   am i correct"
+
+
+
+
+
+
+
+
