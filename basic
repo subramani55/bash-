@@ -1,0 +1,35 @@
+#!/bin/bash
+
+## 	 #! 		--> magic keyword
+##	 /bin/bash  	--> shell
+## 	#!/bin/bash  	--> shebang
+
+## we can execute linux cmds normaly..
+
+## pwd is cmd for showing the present working directory
+
+pwd
+
+## date is for display the date
+
+date
+
+## echo is used for printing 
+
+echo " hai this is basic for the bash scripting"
+echo thank you  
+
+## script ends with .sh file extnsn
+## give execute permission for the script using chmod +x scriptname.sh
+
+## variables types 1.system variable 2.user defined variable ex: $LOGNAME, $SHELL are sys variables....
+## user defined variable means  we can assign variables
+
+
+echo $LOGNAME
+
+echo  $SHELL
+
+ 
+
+
