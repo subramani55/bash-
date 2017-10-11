@@ -4,6 +4,9 @@
 ##AND means if both conditions are true means then part condition executes.
 ##OR means any one condition true means then condition executes.
 
+### we need to use -a -o in within the if[ ] , 
+## use && || symboles can used in   if [] && [] , if [] || []  this types.. ##for this type we see another example script###
+
 if [ 10 -eq 10 ] || [ 11 -lt 10 ]
 
 then
