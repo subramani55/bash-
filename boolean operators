@@ -1,0 +1,16 @@
+#/bin/bash
+
+##boolean operators are AND(&&), OR(||) 
+##AND means if both conditions are true means then part condition executes.
+##OR means any one condition true means then condition executes.
+
+if [ 10 -eq 10 ] || [ 11 -lt 10 ]
+
+then
+	echo "sucess"
+  
+else
+	echo "sorry"
+  
+fi
+
