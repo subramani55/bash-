@@ -1,0 +1,18 @@
+#/bin/bash
+## another example of boolean operator
+## we need to use -a -o in within the if[ ] , 
+## use && || symboles can used in   if [] && [] , if [] || []  this types..
+
+a=10
+b=11
+
+if [ $a == $b -o $b -gt $a ] && [ $a != $b -o $a -lt $b ]
+
+then
+	echo "it's  working"
+
+else
+	echo "failed"
+
+fi
+
